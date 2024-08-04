@@ -207,3 +207,21 @@ main {
   width: 22px;
 }
 /*--------------------------------*/
+.post {
+  display: flex;
+  justify-content: space-between;
+  max-width: 425px;
+  margin: 0 auto;
+  flex-wrap: wrap !important;
+  position: absolute;
+  top: 481px;
+  right: 811.5px;
+}
+.post div {
+  margin: -2px auto;
+  border: 1px solid white;
+}
+.post div img {
+  width: 139px;
+}
+/*--------------------------------*/
