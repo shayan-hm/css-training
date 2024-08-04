@@ -71,7 +71,7 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 380px;
-  margin: 45px auto 0px auto;
+  margin: 35px auto 0px auto;
 }
 .second-part-left {
   border-radius: 50%;
@@ -96,12 +96,12 @@ main {
 }
 .second-part-follow {
   text-align: center;
-  margin: 10px;
 }
 .second-part-follow p {
   text-align: center;
   margin: 10px 0px;
-  border: 1px solid black;
+  margin-bottom: -20px !important;
+  border: 1px solid #b3b3b3;
   border-radius: 5px;
   color: red;
 }
@@ -167,7 +167,7 @@ main {
 .fourth-part div {
   width: 180px;
   height: 27px;
-  background-color: rgb(218, 218, 218);
+  background-color: #f1f1f1;
   text-align: center;
   border-radius: 7px;
   display: flex;
@@ -177,5 +177,33 @@ main {
 .fourth-part div p {
   font-size: 15px;
   font-weight: bold;
+}
+/*--------------------------------*/
+.Fifth-part {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 0px auto;
+}
+.Fifth-part div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 143px;
+  height: auto;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 5px;
+}
+.Fifth-part div:hover {
+  border-bottom: 1px solid black;
+}
+.Fifth-part div img {
+  width: 27px;
+  height: auto;
+}
+.Fifth-part div:nth-child(2) img {
+  width: 25px;
+}
+.Fifth-part div:nth-child(3) img {
+  width: 22px;
 }
 /*--------------------------------*/
