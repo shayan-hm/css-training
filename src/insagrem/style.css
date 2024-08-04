@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 425px;
+  height: 930px;
+  margin: 5px auto;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding-top: 15px;
+  border: 1px solid #959595;
+}
+.first-part {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  margin: auto;
+  align-items: center;
+}
+.first-part-left {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-part-left p {
+  font-weight: 900;
+  font-size: 18px;
+}
+.first-part-left img {
+  width: 16px;
+}
+.first-part-right {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-part-right img:nth-child(1) {
+  width: 20px;
+}
+.first-part-right img:nth-child(2) {
+  width: 5px;
+}
+/*--------------------------------*/
+.second-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+  margin: 45px auto;
+}
+.second-part-left {
+  border-radius: 50%;
+}
+.second-part-left img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+.second-part-right .second-part-data {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.second-part-data div p {
+  font-size: 14px;
+  text-align: center;
+}
+.second-part-data div h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.second-part-follow {
+  text-align: center;
+  margin: 10px;
+}
+.second-part-follow p {
+  text-align: center;
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: red;
+}

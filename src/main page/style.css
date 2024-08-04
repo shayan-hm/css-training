@@ -1,0 +1,26 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.top-header-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header-title {
+  margin-right: 50px;
+}
+.header-menu {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+}
+.header-menu li {
+  margin: 0px 10px;
+}
+.top-header-right {
+  color: white;
+  background-color: darkblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
