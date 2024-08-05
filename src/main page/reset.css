@@ -197,11 +197,3 @@ template {
 body {
   font-family: "TTNorms";
 }
-
-.container {
-  max-width: 80rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
