@@ -59,6 +59,8 @@
 
 .top-header-title a {
   color: #081d43;
+  font-size: 18px;
+  font-weight: bold;
 }
 .top-header-nav {
 }
@@ -69,6 +71,7 @@
 .top-header-nav ul li {
   margin: 0 10px;
   color: #081d43;
+  font-size: 15px;
 }
 .top-header-right {
   background-color: #0050c8;
