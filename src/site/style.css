@@ -68,8 +68,17 @@
 }
 .top-header-nav ul li {
   margin: 0 10px;
+  color: #081d43;
 }
 .top-header-right {
+  background-color: #0050c8;
+  width: 120px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-size: 14px;
+  color: white;
 }
 .top-header-right a {
 }
