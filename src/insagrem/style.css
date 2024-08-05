@@ -4,7 +4,7 @@
 }
 main {
   width: 428px;
-  height: 930px;
+  height: 932px;
   margin: 5px auto;
   background-color: #f1f1f106;
   border-radius: 10px;
@@ -71,7 +71,7 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 380px;
-  margin: 35px auto 0px auto;
+  margin: 30px auto 0px auto;
 }
 .second-part-left {
   border-radius: 50%;
@@ -217,14 +217,12 @@ main {
   display: flex;
   justify-content: space-between;
   max-width: 424px;
-  margin-left: 2px;
+  margin: 4px auto 0 auto;
   flex-wrap: wrap !important;
-  position: absolute;
-  top: 481px;
   z-index: -1;
 }
 .post div {
-  margin: -2px auto;
+  margin: -3px auto;
   border: 1px solid white;
 }
 .post div img {
@@ -236,7 +234,7 @@ main {
 .sixth-part {
   display: flex;
   justify-content: space-between;
-  margin: 404px auto 0px auto;
+  margin: -4px auto 0px auto;
   background-color: white;
   padding: 5px;
   z-index: 3 !important;
