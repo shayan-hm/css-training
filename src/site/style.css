@@ -44,8 +44,8 @@
 }
 /* header style */
 /* header top */
-.header {
-}
+/* .header {
+} */
 .top-header {
   justify-content: space-between;
   margin-top: 15px;
@@ -54,16 +54,16 @@
   justify-content: space-between;
   width: 550px;
 }
-.top-header-title {
-}
+/* .top-header-title {
+} */
 
 .top-header-title a {
   color: #081d43;
   font-size: 18px;
   font-weight: bold;
 }
-.top-header-nav {
-}
+/* .top-header-nav {
+} */
 .top-header-nav ul {
   display: flex;
   list-style: none;
@@ -83,5 +83,94 @@
   font-size: 14px;
   color: white;
 }
-.top-header-right a {
+/* .top-header-right a {
+} */
+/* start main header style*/
+
+.main-header {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 500px;
 }
+/*.main-header-left {
+}*/
+.main-header-title {
+  width: 480px;
+  height: 88px;
+  font-size: 26px;
+}
+.main-header-title h1 {
+  color: #081d43;
+}
+.main-header-description {
+  width: 448px;
+  height: 94px;
+}
+.main-header-description p {
+  color: #6c7890;
+  line-height: 2;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.main-header-button {
+  width: 320px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main-header-button a {
+  color: white;
+  width: 150px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.main-header-button a:nth-child(1) {
+  background-color: #87bc25;
+}
+.main-header-button a:nth-child(2) {
+  background-color: #2f5bea;
+}
+/* end header style */
+/* work section style*/
+.work {
+  width: 85%;
+  text-align: center;
+  margin: 80px auto;
+}
+.work-title {
+  margin: 70px 0;
+}
+.work-title p {
+  color: #6c7890;
+  margin: 10px 0;
+}
+.work-title h1 {
+  color: #081d43;
+  margin: 10px 0;
+}
+.work-topic {
+  justify-content: space-between;
+}
+.topic-box {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.topic-box h2 {
+  color: #081d43;
+}
+.topic-box p {
+  color: #6c7890;
+}
+.work-img img {
+  width: 490px;
+  height: auto;
+  object-fit: cover;
+}
+/* end section work style */
+/* start comment section style */
