@@ -216,18 +216,19 @@ main {
 .post {
   display: flex;
   justify-content: space-between;
-  max-width: 424px;
+  max-height: 418px;
   margin: 4px auto 0 auto;
   flex-wrap: wrap !important;
-  z-index: -1;
+
+  overflow: auto;
 }
 .post div {
-  margin: -3px auto;
+  margin: -1px auto;
   border: 1px solid white;
 }
 .post div img {
-  width: 139px;
-  height: 139px;
+  width: 131px;
+  height: 131px;
   object-fit: cover;
 }
 /*--------------------------------*/
