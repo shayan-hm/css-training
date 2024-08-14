@@ -224,5 +224,40 @@
   align-items: center;
   justify-content: space-around;
 }
-.comement-box .comement-box-name img {
+/* end section comment style */
+/* start gallery section style */
+.gallery {
+  flex-direction: column;
+  align-items: center;
+}
+.gallery-title {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  margin: 50px 0;
+}
+.gallery-title p {
+  font-size: 25px;
+  color: #6c7890;
+}
+.gallery-title h1 {
+  font-size: 45px;
+  color: #081d43;
+  font-weight: 300;
+}
+.gallery-photo-box {
+  width: 1150px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.gallery-photo-box .gallery-item {
+  width: 350px;
+  height: 250px;
+}
+.gallery-photo-box .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
