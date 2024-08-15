@@ -11,7 +11,28 @@
 body {
   background-color: #363535;
 }
-
+/* start cena codes */
+img {
+  cursor: pointer;
+}
+.overlayer {
+  position: fixed;
+  inset: 0;
+  background: #000000a5;
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  cursor: pointer;
+}
+.overlayer-img {
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+/* end cena codes */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
