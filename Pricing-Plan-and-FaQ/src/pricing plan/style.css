@@ -1,0 +1,318 @@
+header .top {
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .logo,
+footer > section > .logo {
+  width: 180px;
+  color: var(--Paper-Light);
+  font-size: 36px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+.top .logo img,
+footer > section > .logo > img {
+  width: 50px;
+}
+.top .menu {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+.menu .list {
+  width: 75%;
+  margin-left: 70px;
+  margin-right: 150px;
+}
+.menu .list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu .list ul li {
+  list-style: none;
+  color: var(--Paper-Light);
+}
+.menu .list ul li:hover {
+  color: var(--Primary-Light);
+}
+
+.menu .list ul li a::after {
+  visibility: hidden;
+  content: url(../../asset/sm-after.svg);
+  width: 5% !important;
+  text-align: right;
+  display: block;
+}
+.menu .list ul li:hover a::after {
+  visibility: visible;
+}
+.menu .Option {
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .Option a:nth-child(1) {
+  color: var(--Paper-Light);
+  font-size: 18px;
+}
+.menu .Option a:nth-child(2) {
+  color: var(--Primary-Main);
+  background-color: var(--Primary-Light);
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+.menu .Option div {
+  width: 2px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.header-input {
+  width: 100%;
+  height: 65px;
+  background-color: var(--Default-Dark);
+  border-radius: 10px;
+  color: #aeaeae;
+  font-size: 22px;
+  padding: 0 30px;
+  margin: 50px 0;
+  display: none;
+}
+/* -------------------------------------------end of hero header------------------------------------------- */
+.hero-pap {
+  text-align: center;
+  width: 900px;
+  margin-top: 100px;
+}
+.hero-pap h1::after {
+  content: url(../../asset/after.svg);
+  text-align: center;
+  display: block;
+}
+.hero-pap h1 {
+  font-size: 64px;
+  color: white;
+}
+.hero-pap p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+/* -------------------------------------------enf of header title style------------------------------------------- */
+.pp-title {
+  text-align: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+.pp-title div {
+  width: 400px;
+  height: 50px;
+  border-radius: 32px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  background-color: white;
+  background: linear-gradient(to right, #b2ebf2, #67888c);
+  font-weight: 500;
+}
+
+.pp-title div p {
+  padding: 6px 40px;
+  border-radius: 32px;
+}
+.pp-title div p:first-child {
+  background-color: black;
+  color: white;
+}
+
+/* -------------------------------------------end pp title style------------------------------------------- */
+.main-pp {
+  flex-wrap: wrap;
+  background: linear-gradient(
+    294deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 64, 129, 1) 0%,
+    rgba(49, 27, 146, 1) 29%,
+    rgba(101, 31, 255, 1) 53%,
+    rgba(132, 255, 255, 1) 100%
+  );
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.pp-item {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+.pp-item > p:nth-child(1) {
+  color: black;
+  background-color: white;
+  font-size: 22px;
+  font-weight: 500;
+  width: 60px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  border-radius: 15px;
+}
+.pp-item > p:nth-child(2) {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+.pp-item > p:nth-child(3) {
+  line-height: 2;
+  width: 75%;
+}
+.pp-item > p:nth-child(4) {
+  line-height: 1.5;
+  font-size: 12px;
+}
+.pp-item > p:nth-child(5) {
+  width: 65%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 20px;
+}
+/* -------------------------------------------end pp section style------------------------------------------- */
+.faq-container {
+  margin-top: 100px;
+}
+.faq-container .navbar {
+  width: 40%;
+}
+.faq-container .navbar h1 {
+  font-size: 72px;
+  font-weight: 900;
+  color: white;
+}
+.faq-container .navbar h1::after {
+  content: url(../../asset/after.svg);
+  text-align: left;
+  display: block;
+}
+.faq-container .faq {
+  width: 60%;
+}
+/* summary and detail */
+summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+summary::after {
+  content: "";
+  width: 36px;
+  height: 20px;
+  background: url("https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg")
+    no-repeat;
+  background-size: cover;
+  transition: all 0.2s;
+  color: white !important;
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+  transition: all 0.2s;
+}
+article {
+  margin-top: 30px;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary {
+  border-radius: 5px 5px 0 0;
+  transition: all 0.2s;
+}
+details[open] {
+  background-color: #651fff;
+  transition: all 0.5s;
+}
+details {
+  margin-top: 25px;
+  background-color: #42424281;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 30px 50px;
+  font-size: 22px;
+}
+.questions-title {
+  margin-left: 40px;
+  color: white;
+  font-size: 35px;
+}
+/* summary and detail */
+
+/* -------------------------------------------start footer style------------------------------------------- */
+
+footer {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  text-align: center;
+}
+footer > section {
+  width: 18%;
+  /* border: 1px solid wheat; */
+}
+.footer-nav {
+  color: white;
+  text-align: center;
+}
+.footer-nav h2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.footer-nav ul li {
+  list-style: none;
+  margin: 40px 0;
+  font-size: 18px;
+}
+footer section:nth-child(1) p {
+  color: white;
+  font-size: 18px;
+  margin: 60px 0;
+}
+footer section:nth-child(5) div {
+  margin: 50px;
+}
+select,
+option {
+  background-color: #42424281;
+  color: white;
+  width: 220px;
+  height: 40px;
+  font-size: 18px;
+}
+/* .pp::after {
+  visibility: hidden;
+  content: url(../../asset/sm-after.svg);
+  width: 5% !important;
+  text-align: right;
+  display: block;
+}
+main:hover ..p::after {
+  visibility: visible;
+} */
