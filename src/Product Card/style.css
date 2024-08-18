@@ -1,0 +1,109 @@
+*,
+::after,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1280px;
+  margin: 5% auto;
+  gap: 25px;
+  text-align: center;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 5px 10px;
+  justify-content: space-around;
+  min-height: 500px;
+  box-shadow: 0 0 10px 0px #00000082;
+  border-radius: 3px;
+}
+.product > img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+.product > span:nth-child(2) {
+}
+.product > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+.product > div:nth-child(3) span:first-child {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+.product > div:nth-child(3) span:nth-child(2) {
+  background-color: aqua;
+  color: blue;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.product > div:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+}
+.product > div:nth-child(4) span:first-child {
+  font-weight: 600;
+}
+.product > div:nth-child(4) span:first-child::before {
+  content: "\272E";
+  color: rgb(255, 234, 0);
+  margin-right: 5px;
+}
+.product > div:nth-child(4) span:nth-child(2) {
+  font-weight: 700;
+}
+.product > div:nth-child(4) span:nth-child(2)::after {
+  content: "تومان";
+  margin-left: 5px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1536px) {
+  .product-container {
+    max-width: 1280px !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .product-container {
+    max-width: 1024px !important;
+    gap: 20px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .product-container {
+    max-width: 768px !important;
+    gap: 15px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .product-container {
+    max-width: 90% !important;
+    gap: 10px !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .product-container {
+    max-width: 640px !important;
+    gap: 8px !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  .product-container {
+    max-width: 100% !important;
+    gap: 5px !important;
+  }
+}
